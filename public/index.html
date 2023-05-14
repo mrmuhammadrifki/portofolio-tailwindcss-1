@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Tailwind CSS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="bg-white absolute top-0 left-0 flex items-center w-full z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="p-3">
+            <div class="w-14 h-14 rounded-full border border-slate-800 flex items-center justify-center">
+              <a href="#home" class="font-bold text-lg block">MR</a>
+            </div>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg w-full right-0 top-24 lg:block lg:static lg:shadow-none lg:rounded-none lg:bg-transparent"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base py-2 mx-8 flex transition-all duration-300 ease-in-out group-hover:underline"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portofolio"
+                    class="text-base py-2 mx-8 flex group-hover:underline transition-all duration-300 ease-in-out"
+                    >Portofolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#clients"
+                    class="text-base py-2 mx-8 flex group-hover:underline transition-all duration-300 ease-in-out"
+                    >Klien</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base py-2 mx-8 flex group-hover:underline transition-all duration-300 ease-in-out"
+                    >Kontak</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Headere End -->
+
+    <!-- Hero Section Start -->
+    <section id="hero" class="pt-36 pb-32" style="background-color: #f5f5f5">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="font-bold text-2xl uppercase mb-2 md:text-3xl">Tentang Saya</h1>
+            <p class="text-base lg:text-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia vitae odio et vel provident eligendi
+              id, officiis amet dolores cumque quas dignissimos veritatis a libero? Fugit recusandae dignissimos iure
+              ipsa beatae, quis esse vero enim, deserunt autem voluptatem aperiam quos.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <div class="mt-10 lg:mt-0">
+              <div class="bg-white rounded-full shadow-lg overflow-hidden p-4 flex">
+                <img src="img/rifki.png" class="w-full" alt="Muhammad Rifki" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- My Projects Section Start -->
+    <section id="portofolio" class="pt-36 pb-32">
+      <div class="container">
+        <h2 class="font-bold text-2xl uppercase text-center mb-16 md:text-3xl">Pekerjaan Saya</h2>
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-6 lg:w-1/2 lg:mb-20">
+            <img src="img/portofolio/1.jpg" class="w-full" alt="Aplikasi Penjualan Churros" />
+          </div>
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h3 class="font-bold text-xl lg:text-2xl uppercase mb-2">Website Penjualan Churros</h3>
+            <p class="text-base mb-16 lg:text-lg lg:mb-20">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi repellat illum numquam hic fugiat!
+              Consectetur cum tempore sequi repudiandae maiores nemo quia non? Suscipit distinctio iusto nemo delectus
+              labore!
+            </p>
+          </div>
+          <div class="w-full px-4 mb-6 lg:w-1/2 lg:mb-20">
+            <img src="img/portofolio/2.jpg" class="w-full" alt="Website Gallery" />
+          </div>
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h3 class="font-bold text-xl lg:text-2xl uppercase mb-2">Website Gallery</h3>
+            <p class="text-base mb-16 lg:text-lg lg:mb-20">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi repellat illum numquam hic fugiat!
+              Consectetur cum tempore sequi repudiandae maiores nemo quia non? Suscipit distinctio iusto nemo delectus
+              labore!
+            </p>
+          </div>
+          <div class="w-full px-4 mb-6 lg:w-1/2 lg:mb-20">
+            <img src="img/portofolio/3.jpg" class="w-full" alt="Aplikasi Catatan" />
+          </div>
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h3 class="font-bold text-xl lg:text-2xl uppercase mb-2">Aplikasi Catatan</h3>
+            <p class="text-base mb-16 lg:text-lg lg:mb-20">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi repellat illum numquam hic fugiat!
+              Consectetur cum tempore sequi repudiandae maiores nemo quia non? Suscipit distinctio iusto nemo delectus
+              labore!
+            </p>
+          </div>
+          <div class="w-full px-4 mb-6 lg:w-1/2 lg:mb-20">
+            <img src="img/portofolio/4.jpg" class="w-full" alt="Website Museum" />
+          </div>
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h3 class="font-bold text-xl lg:text-2xl uppercase mb-2">Website Museum</h3>
+            <p class="text-base mb-16 lg:text-lg lg:mb-20">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi repellat illum numquam hic fugiat!
+              Consectetur cum tempore sequi repudiandae maiores nemo quia non? Suscipit distinctio iusto nemo delectus
+              labore!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Projects End -->
+
+    <!-- Clients Section Start  -->
+    <section id="clients" class="pt-36 pb-32" style="background-color: #f5f5f5">
+      <div class="container">
+        <h2 class="font-bold text-2xl uppercase text-center mb-16 md:text-3xl">Klien Saya</h2>
+        <div class="grid lg:grid-cols-4 gap-10">
+          <div>
+            <div class="bg-white rounded-lg flex items-center justify-center shadow-lg overflow-hidden h-[300px] p-4">
+              <img src="img/clients/google.svg" class="w-10/12" alt="Google" />
+            </div>
+            <h4 class="font-semibold text-2xl mt-4 text-center lg:text-3xl">Google</h4>
+          </div>
+          <div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden h-[300px] p-4 flex items-center">
+              <img src="img/clients/alibaba.svg" class="w-full" alt="Alibaba" />
+            </div>
+            <h4 class="font-semibold text-2xl mt-4 text-center lg:text-3xl">Alibaba</h4>
+          </div>
+          <div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden h-[300px] p-4 flex items-center">
+              <img src="img/clients/gojek.svg" class="w-full" alt="Gojek" />
+            </div>
+            <h4 class="font-semibold text-2xl mt-4 text-center lg:text-3xl">Gojek</h4>
+          </div>
+          <div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden h-[300px] p-4 flex items-center">
+              <img src="img/clients/tokopedia.svg" class="w-full" alt="Tokopedia" />
+            </div>
+            <h4 class="font-semibold text-2xl mt-4 text-center lg:text-3xl">Tokopedia</h4>
+          </div>
+          <div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden h-[300px] p-4 flex items-center">
+              <img src="img/clients/ruangguru.svg" class="w-full" alt="Ruang Guru" />
+            </div>
+            <h4 class="font-semibold text-2xl mt-4 text-center lg:text-3xl">Ruang Guru</h4>
+          </div>
+          <div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden h-[300px] p-4 flex items-center">
+              <img src="img/clients/eFishery.png" class="w-full" alt="eFishery" />
+            </div>
+            <h4 class="font-semibold text-2xl mt-4 text-center lg:text-3xl">eFishery</h4>
+          </div>
+          <div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden h-[300px] p-4 flex items-center">
+              <img src="img/clients/telkom.png" class="w-full" alt="Tekom" />
+            </div>
+            <h4 class="font-semibold text-2xl mt-4 text-center lg:text-3xl">Tekom</h4>
+          </div>
+          <div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden h-[300px] p-4 flex items-center">
+              <img src="img/clients/mandiri.png" class="w-full" alt="Mandiri" />
+            </div>
+            <h4 class="font-semibold text-2xl mt-4 text-center lg:text-3xl">Mandiri</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Section End  -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <h2 class="font-bold text-2xl uppercase text-center mb-16 md:text-3xl">Hubungi Saya</h2>
+          <h3 class="font-semibold text-xl mb-4 text-center lg:text-2xl">immuhammadrifki@gmail.com</h3>
+          <h3 class="font-semibold text-xl uppercase text-center lg:text-2xl">087745610943 - manajer</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="pb-10">
+      <p class="font-semibold text-sm text-center">
+        @2023 Designed by <a href="https://instagram.com/amanulqn" class="hover:underline"> Amanul Yaqin</a>
+      </p>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
